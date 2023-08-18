@@ -1,0 +1,41 @@
+body {    
+    background-color: rgb(181,244,253);
+    /*margin-left: 25%;*/
+}
+
+#container {
+    width:fit-content;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+#ahorcado {
+    align-content:center;
+    height:144px;
+    width:100px;
+    background-image: url('./hang1.jpg');
+}
+
+#ganador {
+    display: none;
+    height: 100vh;    
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 5rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: white;
+}
+
+#letra {
+    width: 50px;
+    text-align: center;
+}
+
+#output {
+    font-size: x-large;
+}
